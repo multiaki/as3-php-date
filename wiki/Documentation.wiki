@@ -15,6 +15,7 @@ The first way is to use the static class method format(), such as the follow lin
 {{{
 PhpDate.format( "r" );
 PhpDate.format( "r", 1211528051 );
+PhpDate.format( "r", new Date() );
 }}} 
 
 You also can create a instance of this class and call the public method format(), too.
@@ -24,9 +25,13 @@ phpDate.format( "r" );
  
 var phpDate2:PhpDate = new PhpDate( 1211528051 );
 phpDate2.format( "r" );
+
+var date:Date = new Date();
+var phpDate3:PhpDate = new PhpDate( date );
+phpDate3.format( "r" );
 }}}  
 
-If you wan't to take over a given UNIX-Timestamp to PhpDate you only have to add the timestamp as a parameter. Remember that only the static format() method accept this, if you use an instance you should add the timestamp to the constructor. 
+If you want to take over a given UNIX-Timestamp or AS3 Date-Object to PhpDate you only have to add the timestamp as a parameter. Remember that only the static <code>format()</code> method accept this, if you use an instance you should add the timestamp/date-object to the constructor.
 
 =Format Chars=
 {{{
