@@ -7,7 +7,7 @@
 
 Date class inspired on the PHP date function (http://php.net/date).
 
-Based on the fact that the native Date class of AS3 is, in my opinion, not so great for some tasks, I decided to implement the php-Data function for AS3. If you have questions feel free to contact me (jochen.hilgers[at]gmail.com) or visit my website under http://www.web-programmer.de
+Based on the fact that the native Date class of AS3 is, in my opinion, not so great for some tasks, I decided to implement the php-Data function for AS3. If you have questions feel free to contact me (jochen.hilgers[at]gmail.com).
 
 =Example=
 There are several ways to use this class.
